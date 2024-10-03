@@ -1,17 +1,45 @@
 import { link } from "fs";
 
-export const Skill_data = [
+
+export const HardFirm_data = [
   {
-    skill_name: "Html 5",
-    Image: "/html.png",
+    skill_name: "Altium",
+    Image: "/Altium.Designer.23.webp",
+    width: 105,
+    height: 105,
+  },
+  {
+    skill_name: "KiCad",
+    Image: "/KiCad-Logo.svg.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Css",
-    Image: "/css.png",
+    skill_name: "tinyCAD",
+    Image: "/TinyCAD-software-para-gratis-para-electronica-e-ingenieria.webp",
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "STM32CubeIDE",
+    Image: "/stm32.jpg",
     width: 80,
     height: 80,
+  },
+];
+
+export const Skill_data = [
+  {
+    skill_name: "C++",
+    Image: "/C++.png",
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "python",
+    Image: "/hmmpython.jpg",
+    width: 95,
+    height: 95,
   },
   {
     skill_name: "Java Script",
@@ -25,6 +53,20 @@ export const Skill_data = [
     width: 80,
     height: 80,
   },
+
+  {
+    skill_name: "Html 5",
+    Image: "/html.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Css",
+    Image: "/css.png",
+    width: 80,
+    height: 80,
+  },
+
 ];
 
 export const Socials = [
@@ -119,6 +161,18 @@ export const Backend_skill = [
 ];
 
 export const Other_skill = [
+  {
+    skill_name: "matplotlib",
+    Image: "/madplot lib.png",
+    width: 90,
+    height: 90,
+  },
+  {
+    skill_name: "numpy",
+    Image: "/NumPy_logo_2020.svg.png",
+    width: 90,
+    height: 90,
+  },
   {
     skill_name: "Github",
     Image: "/gitwhite.png",
