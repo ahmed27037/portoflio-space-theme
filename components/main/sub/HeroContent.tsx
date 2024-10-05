@@ -4,7 +4,6 @@ import React from 'react';
 import { Button } from '@mui/material';
 import { motion } from 'framer-motion';
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion';
-import { AcademicCapIcon } from '@heroicons/react/24/solid';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -13,7 +12,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex gap-9"
+      className="flex gap-7 z-30"
     >
       <div className="h-full w-full flex flex-col gap-10 justify-between text-start col-span-1 md:col-span-1">
 =
@@ -67,10 +66,10 @@ const HeroContent = () => {
         </motion.p>
       
         <Link
-          href="AhmedOsman resume pdf for portfolio.pdf"
+          href="https://docs.google.com/document/d/1zQTLUq9UCJcfy1BKluCL35MxPCAU5eYqcThldmFqIII/edit"
           className="py-2 text-center text-white cursor-pointer rounded-lg max-w-[7rem] border-2 border-orange-800 bg-orange-900 hover:bg-orange-950 transition-colors"
         >
-          Intro Video Coming Soon
+          Hardware Porfolio
         </Link>
       </div>
 
@@ -78,14 +77,14 @@ const HeroContent = () => {
       {/* Image in its own row */}
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center md:col-span-2"
+        className="w-full h-full flex justify-center items-center mt-20"
       >
         <Image
         className='rounded-3xl'
-          src="/CAREER.jpg"
-          alt="work icons"
-          height={450}
-          width={450}
+          src="/35604028241_7b653334e3_b.webp"
+          alt="this is supposed to load"
+          height={550}
+          width={550}
         />
       </motion.div>
     </motion.div>

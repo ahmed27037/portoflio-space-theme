@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { Card, CardActions, CardContent, CardMedia, Button, Typography, Box } from "@mui/material";
 
 interface Props {
@@ -16,6 +16,14 @@ interface Props {
 }
 
 const ProjectCard = ({ src, src2, src3, src4, src5, title, description, href, github }: Props) => {
+  // State to toggle the description visibility
+  const [isDescriptionVisible, setIsDescriptionVisible] = useState(false);
+
+  // Toggle function
+  const toggleDescription = () => {
+    setIsDescriptionVisible((prev) => !prev);
+  };
+
   return (
     <div>
       <Card sx={{ backgroundColor: "#1a1a1a", color: "white", borderRadius: 2 }}>
@@ -74,10 +82,17 @@ const ProjectCard = ({ src, src2, src3, src4, src5, title, description, href, gi
             {title}
           </Typography>
 
-          {/* Render description */}
-          <Typography variant="body2" sx={{ fontSize: "1.2rem", color: "grey.400" }}>
-            {description}
-          </Typography>
+          {/* Toggle Button */}
+          <Button onClick={toggleDescription} sx={{ marginBottom: 1 }}>
+            {isDescriptionVisible ? "Hide Description" : "Show Description"}
+          </Button>
+
+          {/* Render description based on the toggle state */}
+          {isDescriptionVisible && (
+            <Typography variant="body2" sx={{ fontSize: "1.2rem", color: "grey.400" }}>
+              {description}
+            </Typography>
+          )}
         </CardContent>
 
         {/* Action Buttons */}

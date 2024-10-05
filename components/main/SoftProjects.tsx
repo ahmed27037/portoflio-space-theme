@@ -16,23 +16,21 @@ const SoftwareProjects = () => {
           src="/ew pic1.png"
           src2="/ew pic2.png"
           title="MERN Stack Eccomerce Website"
-          description="Built with MERN Stack: Utilized MongoDB for data storage, Express.js for server-side logic, React.js for the frontend, and Node.js for backend operations.
-                      Secure User Authentication: Implemented Auth0 for handling user registrations and logins, ensuring secure access to user accounts.
-                      Dynamic Product Catalog: Created a responsive product catalog that retrieves and displays items from MongoDB, enhancing user shopping experience.
-                      Shopping Cart Functionality: Developed a shopping cart that maintains state across sessions, allowing users to add and review items before checkout.
-                      Responsive Design: Leveraged Material UI for a visually appealing interface that adapts seamlessly across devices, ensuring a consistent user experience.
-                      Challenges Addressed: Overcame authentication complexities and state management issues through robust integration of Auth0 and effective use of React's state management."
+          description="* Developed an E-commerce platform with React, attracting over 100 unique visitors in the first month.
+                      • Used Node.js and Express to create a scalable API, handling 200 concurrent requests with low latency.
+                      • Implemented MongoDB to manage product, user, and order data, achieving a 30% improvement in data
+                      retrieval times over previous databases."
         />
         <ProjectCard
           href="https://issue-tracker-oc7x2rbi4-ahmeds-projects-4e2b796d.vercel.app/"
           src="/it pic1.png"
           src2="/it pic2.png"
           title="Next js Issue Tracker Website"
-          description="Built with Next.js: Utilized Next.js for server-side rendering and efficient page loading, allowing for fast performance and dynamic content updates. The framework's file-based routing system was used to structure the application, organizing different views like issue creation, user dashboard, and graphical reports.
-                      User Authentication: Implemented NextAuth to manage user authentication, allowing users to register and log in securely. User sessions were managed efficiently with tokens, providing access to protected routes such as issue creation and the user dashboard.
-                      Issue Creation and Display: Designed a system where users can create issues by entering relevant details such as titles, descriptions, and categories. Issues were stored in a database and displayed in a list format for easy access. Each issue can be tracked over time, allowing users to monitor project progress.
-                      Graphical Issue Visualization: Created a graph feature that visually displays issue data. Users can see their issues represented in bar graphs or line charts, making it easier to analyze patterns and trends. This visual representation helps in tracking the progress of each issue and understanding the overall project status.
-                      Challenges Addressed: Handled the complexity of managing user authentication and sessions, while organizing the flow of data between issue creation and graphical display. Optimized the backend structure to support real-time data updates for the graph."
+          description="Developed a bug tracking app using Next.js that enabled a team of 6 developers to efficiently list and visualize
+                      *  issues, reducing bug resolution time by 40%.
+                      • Utilized MySQL with Prisma ORM for efficient issue data management and streamlined access.
+                      • Integrated NextAuth for secure user authentication, restricting access to sensitive project data to a team of 6
+                      authorized users, resulting in a 75% reduction in potential unauthorized access attempts."
           github="https://github.com/ahmed27037/issue-tracker"
         />
         <ProjectCard
