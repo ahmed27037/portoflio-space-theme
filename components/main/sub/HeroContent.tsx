@@ -16,13 +16,7 @@ const HeroContent = () => {
       className="flex gap-9"
     >
       <div className="h-full w-full flex flex-col gap-10 justify-between text-start col-span-1 md:col-span-1">
-        <motion.div
-          variants={slideInFromTop}
-          className="Welcome-box py-[1.5rem] px-[1.5rem] border border-orange-900 opacity-[0.9]"
-        >
-          <AcademicCapIcon className="text-[#f7b04e] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">Engineering Portfolio</h1>
-        </motion.div>
+=
 
         <motion.div
           variants={slideInFromLeft(0.5)}
@@ -38,7 +32,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="grid auto-rows-1fr gap-y-5 text-lg font-bold text-gray-400 my-5 "
+          className="grid auto-rows-1fr gap-y-1 text-lg font-bold text-gray-400"
         >
 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-orange-700">
@@ -51,9 +45,14 @@ const HeroContent = () => {
             </span>
 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-700">
-              I am currently in the Waterloo Aerial Robotics Groups Design Team and I love building things.
+              I am currently in the Waterloo Aerial Robotics Groups Design Team
             </span>
 
+
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-800">
+             I love building things.
+            </span>
+            
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-800">
               I am also in the Physics club and Leetcode club and love doing fun problems in my free time.
             </span>

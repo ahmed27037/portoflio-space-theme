@@ -5,8 +5,8 @@ export const HardFirm_data = [
   {
     skill_name: "Altium",
     Image: "/Altium.Designer.23.webp",
-    width: 105,
-    height: 105,
+    width: 200,
+    height: 200,
   },
   {
     skill_name: "KiCad",

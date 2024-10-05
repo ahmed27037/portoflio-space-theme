@@ -4,7 +4,7 @@ import ProjectCard from "./sub/ProjectCard";
 
 const SoftwareProjects = () => {
   return (
-    <div>
+    <div className="z-30">
     <h1 id="SoftProjects" className=" text-center text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-900 py-20">
         Software Projects
       </h1>

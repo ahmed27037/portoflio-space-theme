@@ -4,7 +4,7 @@ import ProjectCard from "./sub/ProjectCard";
 
 const HardwareProjects = () => {
   return (
-    <div>
+    <div className="z-30">
       <h1 id="HardProjects" className="text-[40px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-900 py-20">
         Hardware Projects
       </h1>
@@ -72,6 +72,7 @@ Use Case Specifications: The design is specifically tailored to illuminate only 
 <ProjectCard
 src="/stm32 pic1.png"
 src2="/stm32 pic3.png"
+github="https://github.com/ahmed27037/stm32-bootcamp"
 title="Embedded: Potentiometer to Servo Motor"
 description="a project utilizing the STM32 microcontroller to control a motor based on input from a potentiometer. The primary objective was to read a potentiometer value ranging from 0 to 3.3V, convert it into a PWM (Pulse Width Modulation) signal, and use that signal to control the motor's speed and direction.
 
