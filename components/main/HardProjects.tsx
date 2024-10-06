@@ -31,16 +31,6 @@ Standardized the wiring harness with correct wire gauges, color coding, and labe
 />
 
 <ProjectCard
-  src="/LED pic1.jpg"
-  src2="/LED pic2.jpg.png"
-  title="Solder: LED REV3 circuit"
-  description="Assembled a 5.5V to 3.3V regulated circuit with 1 µF capacitors, ensuring reliable operation and improved drone performance.
-Integrated an LED indicator with a 68Ω resistor, providing clear visual feedback of power status, allowing for quick system diagnostics and reducing mission downtime.
-Created 3D component footprints, streamlining PCB fabrication and ensuring precise part placement, which enhanced production efficiency and reduced assembly errors."
-
-/>
-
-<ProjectCard
 src="/stm32 pic1.png"
 src2="/stm32 pic3.png"
 github="https://github.com/ahmed27037/stm32-bootcamp"
@@ -50,6 +40,16 @@ Combined a potentiometer with an external ADC and established an SPI connection 
 Crafted software routines to configure SPI and generate a PWM signal, enabling precise motor control based on potentiometer readings.
 "
 />
+
+<ProjectCard
+  src="/LED pic1.jpg"
+  title="Solder: LED REV3 circuit"
+  description="Assembled a 5.5V to 3.3V regulated circuit with 1 µF capacitors, ensuring reliable operation and improved drone performance.
+Integrated an LED indicator with a 68Ω resistor, providing clear visual feedback of power status, allowing for quick system diagnostics and reducing mission downtime.
+Created 3D component footprints, streamlining PCB fabrication and ensuring precise part placement, which enhanced production efficiency and reduced assembly errors."
+
+/>
+
       </div>
 
     </div>
